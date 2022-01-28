@@ -146,6 +146,10 @@
 			"name": "/actions/main/in/open_console",
 			"type": "boolean",
 			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/WallCreate",
+			"type": "boolean"
 		}
 	],
 	"action_sets": [
@@ -388,6 +392,7 @@
 			"/actions/main/out/vibrateleft": "Haptic (Left)",
 			"/actions/main/out/vibrateright": "Haptic (Right)",
 			"/actions/main/in/open_console": "Open Console",
+			"/actions/main/in/WallCreate": "WallCreate",
 			"/actions/main": "Main Game Actions"
 		}
 	]
